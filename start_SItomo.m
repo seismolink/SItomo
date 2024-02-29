@@ -30,7 +30,7 @@ clear functions
 clear global
 
 curr_version = '1.0.0';
-program_url = 'https://github.com/obspy/obspy/';
+program_url = 'https://github.com/seismolink/SItomo/';
 
 % add all sub directories to search path
 addpath('./defaults/')
@@ -98,7 +98,7 @@ rng('shuffle');
 
 warning('off','all')
 
-txt = strvcat({'SItomo - Copyright 2022 F.Link and M.D.Long',...
+txt = strvcat({'SItomo - Copyright 2024 F.Link and M.D.Long',...
     'This program is free software: you can redistribute it and/or ',...
     'modify it under the terms of the GNU General Public License as ',...
     'published by the Free Software Foundation, either version 3 of ',...
